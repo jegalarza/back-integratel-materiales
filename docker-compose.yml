@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: api-automatizacion-materiales
+    ports:
+      - "8098:8098"
+    restart: always
